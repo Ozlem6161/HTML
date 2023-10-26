@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+  </head>
+  <body>
+<h1>This is my contact page</h1>
+
+<form action="sign up" method="post">
+  <fieldset>
+    <legend>Basic info:</legend>
+    <p>
+<label>Title</label><br>
+<label>
+<input type="radio" name="Title" value="mr">
+Mr
+</label>
+<label>
+<input type="radio" name="Title" value="mrs">
+Mrs
+</label>
+<label>
+<input type="radio" name="Title" value="miss">
+Miss
+</label>
+    </p>
+    <p>
+<label for="">First name</label><br>
+<input type="text" name="first_name" value="">
+    </p>
+<p>
+<label for="">Last name</label><br>
+<input type="text" name="last_name" value="">
+</p>
+  </fieldset>
+<fieldset>
+  <legend>Contact info</legend>
+  <p>
+    <label for="">Email</label><br>
+    <input type="email" name="email" value=""required>
+    </p>
+    <p>
+    <label for="">Phone number</label><br>
+    <input type="tel" name="phone" value="">
+  </p>
+</fieldset>
+<fieldset>
+<legend>Other info</legend>
+  <p>
+<label for="">password</label><br>
+<input type="password" name="password" value="">
+  </p>
+    <label for="img">Select photo:</label>
+    <input type="file" id="img"name="img" accept="img"value="">
+  <p>
+<label for="">Country</label><br>
+<select class="" name="">
+  <option value="">China</option>
+  <option value="">India</option>
+  <option value="">United state</option>
+  <option value="">Indonesia</option>
+  <option value="">Brazil</option>
+</select>
+  </p>
+<p>
+<label for="txtNote">Comment</label><br>
+<textarea name="txtNote" rows="8" cols="80"></textarea>
+</p>
+
+</fieldset>
+<p>
+<label for="">
+<input type="checkbox" name="" value="terms">
+i agree to the <a href="terms">terms and conditions</a>
+</label>
+</p>
+<p>
+<button type="button" name="button">sign up</button>
+<button type="reset" name="button">Reset form</button>
+</p>
+
+</form>
+
+
+  </body>
+</html>
